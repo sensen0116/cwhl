@@ -1,0 +1,462 @@
+ a{text-decoration: none;/*取消下划线*/}
+ h1,h2,h3,h4,h5,body,p,ul,li{
+	margin:0px;
+	padding:0px;
+	/*list-style: none;*/
+}
+img{
+	border: 0;
+}
+.logo ul{
+	list-style: none;
+}
+.window ul{
+	list-style: none;
+}
+.logo{
+	width: 100%;
+	height: 70px;
+	/*background: red;*/
+	border-bottom: 2px solid #dde5eb;
+}
+.logo1{
+	height: 70px;
+	width: 1350px;
+	/*background: blue;*/
+	/*float: left;*/
+	margin: 0 auto;
+}
+.logo2{
+	margin-left: 104px;
+	line-height: 70px;
+	margin-top: 17.5px;
+	float: left;
+    font-size: 16px;
+}
+
+.logo1 ul li{
+	float: left;
+	margin-right: 18px;
+    position: relative;
+}
+.sy{
+	width: 72px;
+	height: 70px;
+	margin-left: 55px;
+}
+.sy a{
+	line-height: 70px;
+	width: 72px;
+	height: 70px;
+	/*background: yellow;*/
+	text-align: center;
+    float: left;
+	/*border-bottom:2px solid #2a5d84;*/
+    color: #2a5d84;
+
+}
+.sy a:hover{
+	border-bottom:2px solid #ccc;
+     
+}
+
+.cp{
+	width: 72px;
+	height: 70px;
+
+}
+
+.cp a:hover{
+	color: #2a5d84;
+}
+.cpxl{
+	width: 172px;
+	/*height: 100%;*/
+	background: #fff;
+	position: absolute;
+	left: 0px;
+	top:70px;
+	border-top: 2px solid #2a5d84;
+	display: none;
+	z-index: 9;
+}
+.cpxlw{
+	width: 148px;
+	/*height: 100%;*/
+	/*background: yellow;*/
+	margin: 0 auto;
+	font-size: 13px;
+	padding-bottom: 7px;
+
+}
+.cpxlw div{
+	width: 130px;
+	height: 17px;
+	padding: 9px;
+}
+
+.cpxl1,.cpxl5,.cpxl7{
+	border-bottom: 1px solid #ccc;
+	color: #ccc;
+}
+.cpxl2,.cpxl3,.cpxl4,.cpxl6,.cpxl8{
+	border-bottom: 1px dashed #ccc;
+	color: #000;
+
+}
+.cpxl2:hover,.cpxl3:hover,.cpxl4:hover,.cpxl6:hover,.cpxl8:hover{
+	background: #eee;
+	color:#01a2d6;
+	
+}
+.cpxl9{
+	color: #000;
+}
+.cpxl9:hover{
+	background: #eee;
+	border-bottom: 1px dashed #ccc;
+	color: #01a2d6;
+}
+
+.jjfa,.xwzx,.rczp,.gywm{
+	width:95px; 
+	height:70px ;
+    
+
+}
+.jjfa a{
+	/*border-bottom: 2px solid #2a5d84;*/
+
+}
+.lianjie{
+	line-height: 70px;
+    /*background: yellow;*/
+	text-align: center;
+    float: left;
+    width: 95px;
+    height: 70px;
+    color: #555555;
+}
+
+.rczp a:hover{
+	border-bottom: 2px solid #ccc;
+}
+.jjfa a{
+	color:  #555555;
+}
+.xwzx a{
+	color: #555555;
+}
+.gywm a{
+	color: #555555;
+}
+.rczp a{
+	color: #555555;
+}
+.jjfa a:hover{
+    color: #2a5d84;
+}
+.xwzx a:hover{
+    color: #2a5d84;
+}
+.rczp a:hover{
+    color: #2a5d84;
+
+}
+.gywm a{
+    color: #2a5d84;
+}
+.gywm a{
+	border-bottom: 2px solid #2a5d84;
+
+}
+.wzdh{
+  width: 79px;
+  height: 28px;
+  border-radius: 3px;
+  background: #2a5d84;
+  margin-top: 21px;
+  margin-left: 200px;
+
+}
+.wzdh a{
+	float: left;
+	width: 79px;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+}
+.wzdhdx{
+	width: 79px;
+	height: 28px;
+	background: #fff;
+	opacity: 0;
+	position: absolute;
+	left: 0px;
+	top:0px;
+}
+.wzdhdx:hover{
+opacity: 0.2;
+}
+
+
+
+
+
+
+
+.banner{
+	width: 1366px;
+	height: 171px;
+	margin: 0 auto;
+	/*text-align: center;*/
+	position: relative;
+	overflow: hidden;
+}
+.banner img{
+	width: 1366px;
+	height: 171px;
+}
+.banner p{
+	font-size: 50px;
+	color: #fff;
+	width: 310px;
+	/*height: 70px;*/
+	position: absolute;
+	left: 210px;
+	top:50px;
+}
+.banner ul{
+    width: 489px;
+    height: 52px;
+    position: absolute;
+    bottom: -10px;
+    right: 80px;
+    list-style: none;
+}
+.banner li{
+	border-radius: 7px;
+}
+.banner li a{
+	border-radius: 7px;
+
+}
+
+.banner .list1{
+	text-align: center;
+	line-height: 42px;
+	color: #555555;
+	font-size: 16px;
+	background: #fff;
+	margin-right: 5px;
+	width: 88px;
+	height: 52px;
+	float: left;
+
+}
+.list1 a{
+	color: #555555;
+}
+.list2{
+	/*background: #fff;*/
+
+	opacity: 0.8;
+	margin-right: 5px;
+	width: 88px;
+	height: 52px;
+	float: left;
+	width: 88px;
+	height: 52px;
+	background: #000;
+    text-align: center;
+	line-height: 42px;
+	font-size: 16px;
+	color: #fff;
+    
+
+}
+.list2:hover{
+	opacity: 1;
+	background: #fff;
+	color: #555555;
+}
+
+.list3{
+	opacity: 0.8;
+	margin-right: 2px;
+	width: 88px;
+	height:52px;
+	float: left;
+	color: #fff;
+	text-align: center;
+	line-height: 42px;
+	font-size: 16px;
+	background: #000;
+	width: 88px;
+	height:52px;
+
+}
+.list4{
+	opacity: 0.8;
+	margin-right: 2px;
+	width: 88px;
+	height:52px;
+	float: left;
+	color: #fff;
+	text-align: center;
+	line-height: 42px;
+	font-size: 16px;
+	background: #000;
+	width: 88px;
+	height:52px;
+
+}
+.list5{
+	opacity: 0.8;
+	margin-right: 2px;
+	width: 88px;
+	height:52px;
+	float: left;
+	color: #fff;
+	text-align: center;
+	line-height: 42px;
+	font-size: 16px;
+	background: #000;
+	width: 88px;
+	height:52px;
+
+}
+.list3:hover,.list4:hover,.list5:hover{
+	opacity: 1;
+	background: #fff;
+	color: #555555;
+}
+
+
+
+
+
+
+.ong{
+	width: 1366px;
+	height: 472px;
+	margin: 0 auto;
+
+}
+.one p{
+	width: 920px;
+	height: 88px;
+	margin: 0 auto;
+	/*background: red;*/
+	text-align: center;
+	line-height: 88px;
+	border-bottom: 1px solid #eeeeee;
+	font-size: 24px;
+	color: #2a5d84;
+}
+.one1 {
+	width: 920px;
+	height:335px; ;
+	margin: 0 auto;
+	/*text-align: center;*/
+	color: #333333;
+	font-size: 14px;
+
+}
+.one1 a{
+	color: blue;
+}
+
+
+
+
+
+
+.ssgs{
+	width: 100%;
+	height: 60px;
+	background: #24435b;
+	margin: 0 auto;
+}
+.ssgs1{
+	width: 1200px;
+	height: 60px;
+	/*background: red;*/
+	margin: 0 auto;
+}
+.ssgs2{
+	width: 114px;
+	height: 60px;
+	text-align: center;
+	line-height: 60px;
+	color: #69859a;
+	font-size: 13px;
+	margin-left: 70px;
+	float: left;
+	/*background: blue;*/
+}
+.ssgs3{
+	width: 160px;
+	height: 60px;
+	text-align: center;
+	line-height: 60px;
+	color: #9db0be;
+	font-size: 13px;
+	float: left;
+
+}
+.ssgs4{
+	width: 120px;
+	height: 60px;
+	text-align: center;
+	line-height: 60px;
+	color: #69859a;
+	font-size: 13px;
+	float: left;
+	margin-left: 115px;
+
+}
+.ssgs5{
+	width: 120px;
+	height: 60px;
+	text-align: center;
+	line-height: 60px;
+	color: #9db0be;
+	font-size: 13px;
+	float: left;
+
+}
+.ssgs ul{
+	float: left;
+	margin-left:95px; 
+}
+.ssgs6{
+	width: 57px;
+	height: 60px;
+	text-align: center;
+	line-height: 60px;
+	color: #9db0be;
+	font-size: 13px;
+	float: left;
+	list-style:none;
+	margin-right: 10px;
+
+
+}
+.foot{
+	width: 100%;
+	height: 47px;
+	background: #1b374d;
+}
+.foot1{
+	width: 310px;
+	height: 47px;
+	text-align: center;
+	/*line-height: 47px;*/
+	margin: 0 auto;
+	font-size: 13px;
+	color: #69859a;
+	padding-top: 10px;
+}

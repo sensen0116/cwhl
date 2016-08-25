@@ -1,0 +1,302 @@
+a{text-decoration: none;/*取消下划线*/}
+ h1,h2,h3,h6,h5,body,p,ul,li{
+	margin:0px;
+	padding:0px;
+	list-style: none;
+}
+img{
+	border: 0;
+}
+
+/*head开始*/
+.head{
+	width: 100%;
+	height: 61px;
+	/*background: red;*/
+}
+.head .head_one{
+	width:1349px ;
+	height: 61px;
+	/*background: red;*/
+	margin: 0 auto;
+}
+.head_one img{
+	float: left;
+    margin-top: 10.5px;
+    margin-left: 100px;
+}
+.head_one ul{
+	float: left;
+	margin-left: 38px;
+	margin-top: 10px;
+}
+.head_li,.head_border{
+	width: 96px;
+	/*height: 40px;*/
+	border-radius: 40px;
+	/*background: blue;*/
+	float: left;
+	text-align: center;
+	line-height: 40px;
+	margin-right:38px; 
+	border: 1px solid #fff;
+	color: #333333;
+	font-size: 13px;
+}
+.head_border{
+	height: 36px;
+}
+.head_li{
+	height: 40px;
+
+	border: 1px solid #274263;
+
+}
+.head_border:hover{
+	/*background: #000;*/
+	border: 1px solid #274263;
+
+}
+.wzdh{
+	width: 120px;
+	height: 36px;
+	/*background:red ;*/
+	position: relative;
+	/*text-align: center;*/
+	line-height:36px ;
+	float: right;
+    margin-right: 140px;
+    margin-top: 10.5px;
+	border-radius: 40px;
+	font-size: 12px;
+	border: 1px solid #fff;
+
+
+}
+.wzdh p{
+	float: left;
+	color: #333333;
+	margin-left:24px; 
+
+}
+.wzdh_sj{
+	width: 0px;
+    height: 0px;
+    border:5px solid transparent;
+    border-top-color:#333333;
+    position: absolute;
+    top:50%;
+    left:84px;
+    margin-top: -2.5px;
+
+
+}
+.wzdh:hover{
+	border: 1px solid #274263;
+
+}
+/*网站导航结束*/
+
+
+.one{
+	width: 1366px;
+	height: 542px;
+	border-top: 1px solid #e7e7e7;
+	border-bottom: 1px solid #e7e7e7;
+
+	margin: 0 auto;
+	background: red;
+	overflow: hidden;
+}
+.one img{
+	width: 1366px;
+	height: 542px;
+}
+.two{
+	width: 1366px;
+	height: 546px;
+	border-bottom: 1px solid #e7e7e7;
+	/*background: blue;*/
+	margin: 0 auto;
+}
+.kuang{
+	width: 610px;
+		float: left;
+	margin-left: 81px;
+	margin-top: 94px;
+	/*background: purple;*/
+}
+.two1{
+	width: 520px;
+	height: 33px;
+	border-left: 2px solid #61b623;
+	text-align: center;
+	line-height: 33px;
+	font-size: 30px;
+	color: #333;
+
+}
+.two2{
+	/*float: left;*/
+    width: 610px;
+    height: 32px;
+    /*background: red;*/
+    /*text-align: center;*/
+    line-height: 32px;
+    font-size: 17px;
+    color: #333333;
+    margin-left: 34px;
+}
+.two3{
+	margin-top: 30px;
+}
+.two4{
+	width: 400px;
+	height: 324px;
+	float: left;
+	margin-left: 160px;
+	margin-top: 105px;
+}
+
+
+.three{
+	height: 788px;
+	width: 1366px;
+	margin: 0 auto;
+	/*background: red;*/
+	border-bottom: 1px solid #e7e7e7;
+
+}
+.three p{
+	width:428px ;
+	height: 64px;
+	color: #333;
+	font-size: 30px;
+	/*background: blue;*/
+	margin: 0 auto;
+	padding-top: 70px;
+
+}
+.three img{
+	width: 808px;
+	height: 559px;
+	margin: 0 auto;
+}
+.three1{
+	width: 808px;
+	height: 559px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+.four{
+	height: 630px;
+	width: 1366px;
+	/*background: red;*/
+	margin: 0 auto;
+	border-bottom: 1px solid #e7e7e7;
+
+}
+.five{
+	height: 710px;
+	width: 1366px;
+	/*background: blue;*/
+	margin: 0 auto;
+}
+.five1{
+	height: 422px;
+	width: 100%;
+	/*background: #ccc;*/
+	float: left;
+}
+.five2,.five3{
+	width: 477px;
+	height: 333px;
+	margin-top: 50px;
+}
+.five2{
+	margin-left: 142px;
+	margin-right: 109px;
+}
+
+
+
+
+
+
+.foot_one{
+	height: 60px;
+	width: 1366px;
+	background: #252525;
+    /*float: left;*/
+    margin-top:-4px;
+    margin:0 auto;
+}
+.foot_two{
+	height: 60px;
+	width: 1366px;
+	background: #1b1b1b;
+    margin:0 auto;
+    
+    
+}
+
+.foot_font1{
+	width:126px ;
+	height: 60px;
+	text-align: center;
+	line-height: 60px;
+	font-size:14px; ;
+	color:#999999 ;
+	/*background: #FFF;*/
+	float: left;
+}
+.foot_font2{
+	width:129px ;
+	height: 60px;
+	text-align: center;
+	line-height: 60px;
+	font-size:14px; ;
+	color:#fff ;
+	/*background: #111;*/
+	float: left;
+}
+
+.foot_font3{
+
+	width: 57px;
+	height: 60px;
+	text-align: center;
+	line-height: 60px;
+	color: #fff;
+	font-size: 14px;
+	float: left;
+	list-style:none;
+	margin-right: 10px;
+}
+.foot_ul1{
+	float: left;
+	margin-left: 240px;
+}
+.foot_ul2{
+    float: right;
+    margin-right: 240px;
+}
+.foot11{
+	width: 310px;
+	height: 47px;
+	text-align: center;
+	line-height: 47px;
+	margin: 0 auto;
+	font-size: 13px;
+	color: #333333;
+	padding-top: 10px;
+}
+
+
+
+
+
+
+
+        /*foot结束*/
